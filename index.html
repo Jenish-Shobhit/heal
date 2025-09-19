@@ -577,7 +577,7 @@
                 const audioToggle = document.getElementById('audio-toggle');
                 audioToggle.addEventListener('click', this.toggleAudio.bind(this));
 
-                const sources = ['one.mp3', 'two.mp3'];
+                const sources = ['one.mp3'];
                 this.tracks = sources.map((src, index) => {
                     const audio = new Audio(src);
                     audio.preload = 'auto';
